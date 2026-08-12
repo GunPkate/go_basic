@@ -14,4 +14,18 @@ func main() {
 	fmt.Println("above avg ", aboveAvg)
 	fmt.Printf("value %v\n", salary)
 	fmt.Printf("Data Type %T\n", salary)
+
+	var num1, num2 int = 10, 2
+	fmt.Printf("%v + %v = %v\n", num1, num2, num1+num2)
+	fmt.Printf("%v - %v = %v\n", num1, num2, num1-num2)
+	fmt.Printf("%v * %v = %v\n", num1, num2, num1*num2)
+	fmt.Printf("%v / %v = %v\n", num1, num2, num1/num2)
+
+	fmt.Printf("%v == %v = %v\n", num1, num2, num1 == num2)
+	fmt.Printf("%v != %v = %v\n", num1, num2, num1 != num2)
+	fmt.Printf("%v > %v = %v\n", num1, num2, num1 > num2)
+	fmt.Printf("%v >= %v = %v\n", num1, num2, num1 >= num2)
+	fmt.Printf("%v < %v = %v\n", num1, num2, num1 < num2)
+	fmt.Printf("%v <= %v = %v\n", num1, num2, num1 <= num2)
+
 }
